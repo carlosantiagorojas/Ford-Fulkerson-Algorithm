@@ -47,7 +47,7 @@ python ford_fulkerson.py example2.csv 0 8
 In this graph the source node is 0 and the sink node is 31. You can run the code typing the command:
 
 ```
-python ford_fulkerson.py example2.csv 0 31
+python ford_fulkerson.py example3.csv 0 31
 ```
 
 It can also be possible to test the algorithm just modify the file `test_fordfulkerson.py` and type this command:
