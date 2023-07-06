@@ -44,7 +44,7 @@ In this graph the source node is 0 and the sink node is 8. You can run the code 
 python ford_fulkerson.py example2.csv 0 8
 ```
 
-In this graph the source node is 0 and the sink node is 31. You can run the code typing the command:
+In the last graph the source node is 0 and the sink node is 31. You can run the code typing the command:
 
 ```
 python ford_fulkerson.py example3.csv 0 31
