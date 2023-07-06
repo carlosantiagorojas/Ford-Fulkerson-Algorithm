@@ -28,7 +28,6 @@ Arguments:
 
 The code can be tested with three examples:
 
-1.
 ![Alt text](Images/Example.png)
 
 In this graph the source node is 0 and the sink node is 5. You can run the code typing the command:
@@ -37,7 +36,6 @@ In this graph the source node is 0 and the sink node is 5. You can run the code 
 python ford_fulkerson.py example.csv 0 5
 ```
 
-2.
 ![Alt text](Images/Example2.png)
 
 In this graph the source node is 0 and the sink node is 8. You can run the code typing the command:
@@ -46,7 +44,7 @@ In this graph the source node is 0 and the sink node is 8. You can run the code 
 python ford_fulkerson.py example2.csv 0 8
 ```
 
-3. In this graph the source node is 0 and the sink node is 31. You can run the code typing the command:
+In this graph the source node is 0 and the sink node is 31. You can run the code typing the command:
 
 ```
 python ford_fulkerson.py example2.csv 0 31
