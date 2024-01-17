@@ -1,16 +1,16 @@
 # Ford-Fulkerson Algorithm
 
-This code implements the Ford-Fulkerson algorithm for finding the maximum flow in a graph.
+This code implements the Ford-Fulkerson algorithm for finding the maximum flow in a graph 📈.
 
 The output is the maximum flow found, along with a track of the capacity of edges to transport this flow. 
 
 The code uses a "residual graph" to save the maximum flow of each iteration. The residual graph is a copy of the original graph, but this is set with the capacities of the edges that transport the maximum flow found in each iteration. This allows the code to find the maximum flow in a graph by iteratively finding paths from the source vertex to the sink vertex, subtracting the capacity of the edges of the main graph of each from the capacities of the edges in the residual graph of each iteration. The algorithm terminates when there are no more paths from the source vertex to the sink vertex.
 
-## Usage
+## 🚀 Usage
 
 1. Prepare your input data:
 
-* Create a CSV file representing the graph.
+* Create a CSV file representing the graph 📄.
 * The CSV file should contain a square matrix where each element represents the capacity of an edge between two nodes.
 * The values should be non-negative integers.
 
@@ -24,7 +24,7 @@ Arguments:
 * `filename`: the name or the path of the CSV file.
 * `source` and `sink`: the indices of the source and sink nodes in the graph, respectively.
 
-### Examples
+### 📚 Examples
 
 The code can be tested with three examples:
 
