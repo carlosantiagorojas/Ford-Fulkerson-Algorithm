@@ -4,6 +4,8 @@ This code implements the Ford-Fulkerson algorithm for finding the maximum flow i
 
 The output is the maximum flow found, along with a track of the capacity of edges to transport this flow. 
 
+## 📝 Residual graph 
+
 The code uses a "residual graph" to save the maximum flow of each iteration. The residual graph is a copy of the original graph, but this is set with the capacities of the edges that transport the maximum flow found in each iteration. This allows the code to find the maximum flow in a graph by iteratively finding paths from the source vertex to the sink vertex, subtracting the capacity of the edges of the main graph of each from the capacities of the edges in the residual graph of each iteration. The algorithm terminates when there are no more paths from the source vertex to the sink vertex.
 
 ## 🚀 Usage
@@ -50,7 +52,15 @@ In the last graph the source node is 0 and the sink node is 31. You can run the 
 python ford_fulkerson.py example3.csv 0 31
 ```
 
-It can also be possible to test the algorithm just modify the file `test_fordfulkerson.py` and type this command:
+## 🧪 Testing
+
+1. First you need to install pytest if you currently don't have it installed by typing this command:
+
+```
+pip install pytest
+```
+
+2. Modify the file `test_fordfulkerson.py` (by default it have some asserts of the result of the examples) and type this command:
 
 ```
 pytest test_fordfulkerson.py
