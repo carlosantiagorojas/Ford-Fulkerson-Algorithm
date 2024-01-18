@@ -1,4 +1,5 @@
-from ford_fulkerson import Graph, read_csv
+from ford_fulkerson import Graph
+from main import read_csv
 
 def test_example():
     graph = Graph(read_csv("example.csv"))
